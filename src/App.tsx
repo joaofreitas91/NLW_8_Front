@@ -1,14 +1,5 @@
-import { useState } from "react";
+import { Widget } from "./components/Widget";
 
-function Button(props: string) {
-    console.log(props);
-    return <button>{props.text}</button>;
+export function App() {
+    return <Widget />;
 }
-
-function App() {
-    const [movies, setMovies] = useState(["Action", "Adventure"]);
-
-    return <Button text="Action" />;
-}
-
-export default App;
