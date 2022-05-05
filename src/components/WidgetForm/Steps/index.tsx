@@ -1,10 +1,9 @@
 import { useState } from "react";
-import { CloseButton } from "../CloseButton";
-import bug from "../../assets/bug.svg";
-import idea from "../../assets/idea.svg";
-import thought from "../../assets/thought.svg";
-import { FeedbackTypeSteps } from "./Steps/FeedbackTypeSteps";
-import { FeedbackContentSteps } from "./Steps/FeedbackContentSteps";
+import bug from "../../../assets/bug.svg";
+import idea from "../../../assets/idea.svg";
+import thought from "../../../assets/thought.svg";
+import { FeedbackTypeSteps } from "./FeedbackTypeSteps";
+import { FeedbackContentSteps } from "./FeedbackContentSteps";
 
 export const feedbackTypes = {
     BUG: {
